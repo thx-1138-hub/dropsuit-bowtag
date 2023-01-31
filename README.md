@@ -29,7 +29,7 @@ const dropsuit_bowtag = require("dropsuit-bowtag");
 
 ```
 
-Process intents.json using 'jsonIntStrct' function:
+Process [intents.json](https://github.com/ladooniani/DropSuit/blob/main/Example.md) using 'jsonIntStrct' function:
 
 ```
 const json_data = require("dropsuit-dtstruc/jsobj.js");
