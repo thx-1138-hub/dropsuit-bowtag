@@ -1,10 +1,10 @@
 [<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png" />](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md)
 
-[![npm version](https://img.shields.io/npm/v/dropsuit-bowtag.svg?style=flat)](https://www.npmjs.com/package/dropsuit-bowtag)
+[![npm version](https://img.shields.io/npm/v/dropsuit-bowtag.svg?style=flat)](https://www.npmjs.com/package/dropsuit-bowtag) [![npm](https://img.shields.io/npm/dt/dropsuit-bowtag.svg?style=flat-square)](https://www.npmjs.com/package/dropsuit-bowtag) [![License](https://img.shields.io/npm/l/dropsuit-bowtag.svg)](https://www.npmjs.com/package/dropsuit-bowtag)
 
 # Overview of DropSuit NLP and the bowtag Function
 
-[DropSuit](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP is an open-source JavaScript and Node.js library offering diverse functions for natural language processing and data manipulation. The bowtag function is one of its modules, designed for generating a bag of words from input and data structure intent tags. It is available under the Apache License 2.0.
+[**DropSuit**](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP is an open-source JavaScript and Node.js library offering diverse functions for natural language processing and data manipulation. The bowtag function is one of its modules, designed for generating a bag of words from input and data structure intent tags. It is available under the Apache License 2.0.
 
 ## DropSuit NLP Method: A JavaScript and Node.js function for generating a bag of words from input and data structure intent tags
 
@@ -42,7 +42,7 @@ let dsbowtag = new dropsuit_bowtag(intentData.req_arr, intentData.tags, intentDa
 
 #### bowtag(boolean)
 
-- **array**: Processes default object instance json key value *(req_arr: requests)*, *(tag_arr: tags)*, *(tag_arr: tags)* array patterns.
+- **array**: Processes default object instance json key value _(req_arr: requests)_, _(tag_arr: tags)_, _(tag_arr: tags)_ array patterns.
 - **boolean**: (true/false) Enable or disable stemming.
 
 #### Return option:
