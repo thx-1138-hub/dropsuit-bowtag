@@ -12,6 +12,8 @@ The bowtag function is a part of the DropSuit NLP library, it's a JavaScript and
 
 ## Installation
 
+Check: [Installing DropSuit: NPM vs GitHub Packages](https://github.com/ladooniani/DropSuit/blob/main/Installation.md)
+
 Add the library function by installing it via npm:
 
 ```
