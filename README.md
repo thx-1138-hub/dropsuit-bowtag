@@ -2,9 +2,9 @@
 
 [![npm version](https://img.shields.io/npm/v/dropsuit-bowtag.svg?style=flat)](https://www.npmjs.com/package/dropsuit-bowtag) [![npm](https://img.shields.io/npm/dt/dropsuit-bowtag.svg?style=flat-square)](https://www.npmjs.com/package/dropsuit-bowtag) [![License](https://img.shields.io/npm/l/dropsuit-bowtag.svg)](https://www.npmjs.com/package/dropsuit-bowtag)
 
-# Overview of DropSuit NLP and the bowtag Function
+# Overview of [DropSuit](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP and the bowtag Function
 
-[**DropSuit**](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP is an open-source JavaScript and Node.js library offering diverse functions for natural language processing and data manipulation. The bowtag function is one of its modules, designed for generating a bag of words from input and data structure intent tags. It is available under the Apache License 2.0.
+[DropSuit](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP is an open-source JavaScript and Node.js library offering diverse functions for natural language processing and data manipulation. The bowtag function is one of its modules, designed for generating a bag of words from input and data structure intent tags. It is available under the Apache License 2.0.
 
 ## DropSuit NLP Method: A JavaScript and Node.js function for generating a bag of words from input and data structure intent tags
 
@@ -142,6 +142,12 @@ Output:
 ## Links
 
 - npm: https://www.npmjs.com/package/dropsuit-bowtag
+
+## Supporting DropSuit
+
+DropSuit is an open-source library and I am dedicated to ensuring its continued development and improvement. If you have any questions, feedback, or encounter any issues, please reach out through the [support via PayPal](https://www.paypal.com/paypalme/dropsuit?country.x=GE&locale.x=en_US), and read more about [support details](https://github.com/ladooniani/DropSuit/blob/main/Support.md).
+
+Your support is crucial for the library's success. You can also contribute to the project by submitting bug reports, feature requests, or by providing feedback. Sharing the library with others who may find it useful and giving it a star on GitHub are also great ways to show your support. Thank you for using DropSuit!
 
 ## License
 
