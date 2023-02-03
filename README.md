@@ -10,7 +10,7 @@
 
 The bowtag function is a part of the DropSuit NLP library, it's a JavaScript and Node.js function that generates a bag of words from input and data structure intent tags. It accepts a boolean parameter to enable or disable stemming. It's open-source and available under the Apache License 2.0.
 
-## Installation
+### Installation
 
 Check: [Installing DropSuit: NPM vs GitHub Packages](https://github.com/ladooniani/DropSuit/blob/main/Installation.md)
 

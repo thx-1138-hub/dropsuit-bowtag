@@ -21,7 +21,7 @@
  * @see mailto:ladooniani@gmail.com
  * @version 1.0.0
  * @see https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md
- * @copyright 2016-2023 Lado Oniani- DropSuit. All Rights Reserved.
+ * @copyright 2016-2023 Lado Oniani - DropSuit. All Rights Reserved.
  * @license Apache License 2.0
  */
 
