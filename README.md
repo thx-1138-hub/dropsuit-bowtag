@@ -1,18 +1,16 @@
-[<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png" />](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md)
+[<img alt="TAI Lab." width="59px" src="https://github.com/ladooniani/tailab/blob/master/assets/tai_lab_terbinari_cbm_project_logo.png" />](https://github.com/ladooniani/DropSuit#readme)
 
 [![npm version](https://img.shields.io/npm/v/dropsuit-bowtag.svg?style=flat)](https://www.npmjs.com/package/dropsuit-bowtag) [![npm](https://img.shields.io/npm/dt/dropsuit-bowtag.svg?style=flat-square)](https://www.npmjs.com/package/dropsuit-bowtag) [![License](https://img.shields.io/npm/l/dropsuit-bowtag.svg)](https://www.npmjs.com/package/dropsuit-bowtag)
 
-# Overview of [DropSuit](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP and the bowtag Function
+# Overview of [DropSuit](https://github.com/ladooniani/DropSuit#readme) NLP and the bowtag Function
 
-[DropSuit](https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md) NLP is an open-source JavaScript and Node.js library offering diverse functions for natural language processing and data manipulation. The bowtag function is one of its modules, designed for generating a bag of words from input and data structure intent tags. It is available under the Apache License 2.0.
+[DropSuit](https://github.com/ladooniani/DropSuit#readme) NLP is an open-source JavaScript and Node.js library offering diverse functions for natural language processing and data manipulation. The bowtag function is one of its modules, designed for generating a bag of words from input and data structure intent tags. It is available under the Apache License 2.0.
 
 ## DropSuit NLP Method: A JavaScript and Node.js function for generating a bag of words from input and data structure intent tags
 
 The bowtag function is a part of the DropSuit NLP library, it's a JavaScript and Node.js function that generates a bag of words from input and data structure intent tags. It accepts a boolean parameter to enable or disable stemming. It's open-source and available under the Apache License 2.0.
 
 ### Installation
-
-Check: [Installing DropSuit: NPM vs GitHub Packages](https://github.com/ladooniani/DropSuit/blob/main/Installation.md)
 
 Add the library function by installing it via npm:
 
