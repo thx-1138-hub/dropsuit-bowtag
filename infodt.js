@@ -18,8 +18,8 @@ function displayInfoData() {
     array: Processes default object instance json key value (req_arr: requests), (tag_arr: tags) array patterns.
     
     Output: 
-      bowtg(): Bag of words array.
-      tags(): Tags IDx value sequence arrays.
+      tagsbt(): Bag of words array.
+      bowtbt(): Tags IDx value sequence arrays.
     ${divider}`;
 
   const displayInfoData = {

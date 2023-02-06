@@ -47,8 +47,8 @@ let dsbowtag = new dropsuit_bowtag(intentData.req_arr, intentData.tags, intentDa
 
 #### Return option:
 
-- **bowtg()** Bag of words.
-- **tags()** Tags IDx value sequence arrays.
+- **tagsbt()** Bag of words.
+- **bowtbt()** Tags IDx value sequence arrays.
 
 ```
 let out = dsbowtag.bowtag(false);
