@@ -20,7 +20,7 @@
  * {@link https://github.com/ladooniani GitHub}
  * @see mailto:ladooniani@gmail.com
  * @version 1.0.0
- * @see https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md
+ * @see https://github.com/ladooniani/DropSuit#readme
  * @copyright 2016-2023 Lado Oniani - DropSuit. All Rights Reserved.
  * @license Apache License 2.0
  */

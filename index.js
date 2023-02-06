@@ -20,7 +20,7 @@
  * {@link https://github.com/ladooniani GitHub}
  * @see mailto:ladooniani@gmail.com
  * @version 1.0.0
- * @see https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md
+ * @see https://github.com/ladooniani/DropSuit#readme
  * @copyright 2016-2023 Lado Oniani - DropSuit. All Rights Reserved.
  * @license Apache License 2.0
  */
@@ -121,7 +121,7 @@ function bowtag_f(requests, tags, responses, dostem, dispout) {
     XtrainWordsInputSize.push(bagArr);
     YtrainTagsOutputSize.push(id);
     outret = return_bowtOut(XtrainWordsInputSize, YtrainTagsOutputSize);
-    if (dispout == true && innerDisplayBool == true) {
+    if (dispout == true) {
       displayE0(dispout, tag, id, pt, bagArr); /// DISPLAY >>
     }
   }
@@ -151,13 +151,13 @@ function return_bowtOut(XtrainWordsInputSize, YtrainTagsOutputSize) {
 const getdt = require("./infodt.js");
 let fnctit = getdt.displayInfoData();
 const line = fnctit.line;
-var bowtag_fDescription = fnctit.bowtag_fD;
+var description = fnctit.descript;
 
 function displayE0(dispout, tag, id, pt, bagArr) {
   if (dispout == true) {
     var info = "";
     if (n == 0) {
-      info = bowtag_fDescription + "\n" + procDt;
+      info = description;
     } else {
       info = "";
     }
@@ -186,7 +186,7 @@ function displayE1(
 ) {
   if (dispout == true) {
     console.log(
-      bowtag_fDescription,
+      description,
       "\nInput:\n\nTags:\n\n",
       tags,
       "\n\nRequests:\n\n",

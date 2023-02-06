@@ -2,47 +2,36 @@
 
 function displayInfoData() {
   const liblink =
-    "\nDropSuit: https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md" +
-    "\nCopyright © 2016-" +
+    "DropSuit: https://github.com/ladooniani/DropSuit#readme\n" +
+    "Copyright © 2016-" +
     getYear() +
-    " Lado Oniani- DropSuit, tAi lab. All Rights Reserved.\n\n";
-  const libName = "DropSuit function:\n\n";
-  const line = "\n🌢\n";
-  const linemid = "\n----------------------------------------\n";
-  const endline = "\n⬤\n";
-  const noteline = "NOTE: —————————————————————";
-  const notelend = "———————————————————————————";
-  const dispOut =
-    "bool: (true/false) Display processing output results in terminal.\n";
-  const inf = line + liblink + libName;
-
-  var bowtag_fDescription =
-    inf +
-    "bowtag(boolean)\narray: Processes default object instance json key value" +
-    "\n(req_arr: requests), (tag_arr: tags) array patterns.\n" +
-    "boolean: (true/false) Enable or disable stemming." +
-    "\n\nReturn:\n\nbowtg() Bag of words, tags() Tags IDx value sequence arrays.\n" +
-    linemid;
+    " Lado Oniani - DropSuit. All Rights Reserved.\n\n";
+  const libName = "DropSuit NLP module library function:\n";
+  const line =
+    "\n———————————————————————————————————————————————————————————\n\n";
+  const divider =
+    "\n-----------------------------------------------------------\n";
+  const libraryInformation = line + liblink + libName;
+  const functionDescription = `${libraryInformation}
+    bowtag(boolean)
+    Input: boolean (true/false) Enable or disable stemming.
+    array: Processes default object instance json key value (req_arr: requests), (tag_arr: tags) array patterns.
+    
+    Output: 
+      bowtg(): Bag of words array.
+      tags(): Tags IDx value sequence arrays.
+    ${divider}`;
 
   const displayInfoData = {
-    bowtag_fD: bowtag_fDescription,
-    liblink:
-      "\nDropSuit: https://github.com/ladooniani/DropSuit/blob/main/DropSuit.md" +
-      "\nCopyright © 2016-" +
-      getYear() +
-      " Lado Oniani- DropSuit, tAi lab. All Rights Reserved.\n\n",
-    libName: "\nDropSuit NLP module library function:\n",
-    line: endline,
-    procDt: "Processing log:\n\n",
-    outRet: "\n\nOUTPUT RETURN DATA:",
+    descript: functionDescription,
+    line: line,
   };
 
   return displayInfoData;
 }
 
 function getYear() {
-  var year = new Date().getFullYear();
-  return year;
+  return new Date().getFullYear();
 }
 
 //#endregion
